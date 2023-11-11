@@ -1,0 +1,47 @@
+p {
+    background-color: yellow;
+}
+.special {
+    font-size: 24px;
+}
+div .highlight{
+    background-color: green;
+}
+[href] {
+    background-color: rgb(0, 204, 255);
+}
+img[src$=".jpg"] {
+    border: solid 2px red;
+}
+a:hover {
+    background-color: black;
+}
+p::first-line {
+    text-transform: capitalize;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+input[type="text"]:focus {
+    border: solid 2px blue;
+}
+.warning::before {
+    content: "⚠";
+}
+
+p:last-of-type {
+    background-color: yellow;
+}
+
+.note::after {
+    content: " ♪";
+}
+
+a:visited {
+    color: grey;
+}
+li:nth-child(odd) {
+    font-weight: bold;
+}
